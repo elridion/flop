@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+
+- Added the `:query_opts` option to Flop callbacks to pass on options to the
+  Ecto repo on query execution. If you are already using the `:prefix` option
+  you now have to pass this through `:query_opts`.
+
 ## [0.15.0] - 2021-11-14
 
 ### Added
